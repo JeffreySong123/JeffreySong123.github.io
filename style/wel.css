@@ -1,35 +1,38 @@
 .welcome_wrapper {
   height: 0px;
 }
+
 .welcome {
   text-align: center;
-  position: relative;
+  position: absolute;
   font-weight: 300;
   color: #402d2d;
-  bottom: 23em;
+  padding-top: 20%;
+  bottom: 8.3em;
+  left: 1.9em;
+  height: 0px;
+  width: 27em;
 }
+
 .moto {
-  border: 2px solid blue;
   position: relative;
-  top: 0.5em;
+  top: 60px;
   display: inline-block;
 }
 .letters {
-  border: 1px solid;
   display: inline-block;
-  padding-top: 10%;
+  padding-top: 15px;
 }
 
 .text-wrapper {
   position: relative;
   display: inline-block;
-  /*padding-top: 0.85em;
+  padding-top: 0.85em;
   padding-right: 0.05em;
-  padding-bottom: 0.15em;*/
-  padding-top: 1em;
+  padding-bottom: 0.15em;
   width: 20%;
   line-height: 1em;
-  /*padding-bottom: 5%;*/
+  bottom: 3em;
 }
 .line {
   position: absolute;
