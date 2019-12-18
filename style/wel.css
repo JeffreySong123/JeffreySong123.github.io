@@ -3,14 +3,14 @@
 }
 .welcome {
   text-align: center;
-  position: absolute;
+  position: relative;
   font-weight: 300;
   color: #402d2d;
-  padding-top: 20%;
-  bottom: 8.3em;
+  bottom: 20em;
+  /*bottom: 8.3em;
   left: 1.9em;
   height: 0px;
-  width: 27em;
+  width: 27em;*/
 }
 .moto {
   position: relative;
