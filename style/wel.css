@@ -7,10 +7,9 @@
   position: absolute;
   font-weight: 300;
   color: #402d2d;
-  padding-top: 20%;
-  bottom: 8.3em;
+  bottom: 9em;
   left: 1.9em;
-  height: 0px;
+  height: 20px;
   width: 27em;
 }
 
@@ -21,7 +20,7 @@
 }
 .letters {
   display: inline-block;
-  padding-top: 15px;
+  padding-top: 10%;
 }
 
 .text-wrapper {
