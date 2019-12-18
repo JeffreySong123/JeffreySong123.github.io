@@ -6,27 +6,30 @@
   position: relative;
   font-weight: 300;
   color: #402d2d;
-  bottom: 800px;
+  bottom: 23em;
 }
 .moto {
+  border: 1px solid blue;
   position: relative;
-  top: 60px;
+  top: 0.5em;
   display: inline-block;
 }
 .letters {
+  border: 1px solid;
   display: inline-block;
-  padding-top: 15px;
+  padding-top: 10%;
 }
 
 .text-wrapper {
   position: relative;
   display: inline-block;
-  padding-top: 0.85em;
+  /*padding-top: 0.85em;
   padding-right: 0.05em;
-  padding-bottom: 0.15em;
+  padding-bottom: 0.15em;*/
+  padding-top: 1em;
   width: 20%;
   line-height: 1em;
-  bottom: 3em;
+  /*padding-bottom: 5%;*/
 }
 .line {
   position: absolute;
