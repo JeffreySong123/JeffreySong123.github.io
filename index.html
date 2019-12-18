@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Weiyuan Song</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta name="keywords" content="weiyuansong.com, WeiyuanSong, weiyuansong, jeffreysong"/>
+
+<!--Style Sheet-->
+<link rel="stylesheet" type="text/css" href="../bootstrap-4.4.1-dist/css/bootstrap.min.css" media="all">
+<link rel="stylesheet" type="text/css" href="style/style.css" media="all">
+<link rel="stylesheet" type="text/css" href="style/wel.css">
+<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<!--Style Sheet-->
+
+<!--JavaScript Includes-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="../bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+<script src="JavaScript/wel.js"></script>
+<!--JavaScript Includes-->
+
+<style>
+
+html {
+	scroll-behavior: smooth;
+}
+.nav-item {
+	padding: 10px;
+	transition: transform 0.2s;
+}
+
+.nav-item:hover {
+	transform: scale(1.1);
+}
+
+#mypic {
+	max-width: 400px;
+	height: 500px;
+	width: auto;
+	height: auto;
+	padding-top: 35%;
+	padding-bottom: 15%;
+}
+
+.intro_word {
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+
+.header_bar {
+	height: 100px;
+	background-attachment: fixed;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+#intro {
+	background-image: url(images/IMG_5497.jpeg);
+}
+
+#internship {
+	background-image: url(images/IMG_2508.jpeg);
+}
+
+#project {
+	background-image: url(images/IMG_2508.jpeg);
+}
+
+#contact {
+	background-image: url(images/IMG_5373.jpeg);
+}
+
+#header {
+	text-align: center;
+	padding-top: 2%;
+	color: white;
+	border: 20px white;
+}
+#header:hover {
+	text-shadow: 1px 1px 3px;
+}
+
+a, a:hover{
+	color:inherit;
+	text-decoration: none;
+}
+
+h2 {
+	font: 400 100px/1.5 'Pacifico', Helvetica, sans-serif;
+  	color: #2b2b2b;
+	text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);
+	font-size: 250%;
+}
+
+.intern-pic {
+	max-width: 250px;
+	max-height: 250px;
+	padding-top: 2%;	
+}
+.col {
+	padding-top: 1em;
+	padding-bottom: 2em;
+	text-align: center;
+}
+
+.project_container img {
+	max-width: 600px;
+	max-height: 600px;
+	width: auto;
+	height: auto;
+}
+
+.testimonial-group > .row {
+  overflow-x: auto;
+  white-space: nowrap;
+  flex-wrap: nowrap;
+}
+.testimonial-group > .row > .col-xs-4 {
+  display: inline-block;
+  float: none;
+}
+
+.ending-page {
+	height: 150px;
+	background-color: black;
+}
+div input {
+	height: 2.5em;
+}
+
+#email_box {
+	width: 15em;
+}
+
+/* {
+	border: 1px solid;
+}*/
+
+
+</style>
+</head>
+<body>
+	<!--Top Navigation Bar-->
+	<div class="head_navbar">
+		<nav class="navbar navbar-expand-lg bg-dark" style="height: 60px">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link text-white" href="index.html" style="font-size: 120%">WS</a>					
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-white" id="ex" href="#intro">About me</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-white" href="#internship">Internship</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-white" href="#project">Project</a>	
+				</li>	
+			</ul>
+		</nav>
+	</div>
+
+	<!-- Backgournd Images -->
+	<div id="bg-images" class="carousel slide" data-ride="carousel" data-interval='5000'>
+  		<div class="carousel-inner">
+  			<div class="carousel-item active">
+      			<img class="d-block w-100" src="images/IMG_1709.jpeg" alt="Empire">
+    		</div>
+    		<div class="carousel-item">
+      			<img class="d-block w-100" src="images/IMG_2523.jpeg" alt="Sky">
+    		</div>
+  		</div>
+  		<a class="carousel-control-prev" href="#bg-images" role="button" data-slide="prev">
+    		<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    		<span class="sr-only">Previous</span>
+  		</a>
+  		<a class="carousel-control-next" href="#bg-images" role="button" data-slide="next">
+    		<span class="carousel-control-next-icon" aria-hidden="true"></span>
+    		<span class="sr-only">Next</span>
+  		</a>
+	</div>
+
+	<div class="welcome_wrapper">
+		<h1 class="welcome">
+  			<div class="text-wrapper">
+    			<span class="line" id="line1" style="font-size: 300%"></span>
+    			<span class="letters" id="left" style="font-size: 150%">Weiyuan</span>
+    			<span class="letters" id="right" style="font-size: 150%">Song</span>
+    			<span class="line" id="line2" style="font-size: 200%"></span>
+    			<span class="moto" style="font-size: 150%">Welcome</span>
+  			</div>
+		</h1>
+	</div>
+	<script>welcome();</script>
+	<!--Welcome Page-->
+
+	<!-- Main Page -->
+
+	<!-- About Myself -->
+	<div class="header_bar" id="intro">
+		<h1 id="header"><a href="#intro">About Me</a></h1>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-auto">
+				<img id="mypic" src="images/IMG_9620.JPG">
+			</div>
+			<div class="col-sm">
+				<div class="intro_word">
+					<h2>Hello!</h2>
+					<p>
+						 Welcome to my website. Hope you have a great day! My name is Weiyuan Song, or Jeffrey. I was born in from Fujian, China and went to high school in Cleveland, Ohio. Now I'm in college! I'm now in second year studing Mathematical Optimization: Operation Research in the University of Waterloo in Ontario, Canada. I also love programming and code a lot during my everyday life either for school work, or just don't have anything to do and want to get my hands dirty. I want to use my knowledge to change the world, even just a little bit. That is why I am always, constantly learning. Reading books (literature or math), taking online courses and learning new algorithms and programming languages so that I can do more. I find these things fun, fun, and fun. But these are not the only thing I do. I Love Marvel Movies, especially Iron Man. This is what I do in my spare time: just binge-watch all Marvel movies over and over again. If you never watch them before, I strongly recommend you do so. Quickly! You won't regret it. I promise!
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Internships -->
+	<div class="header_bar" id="internship">
+		<h1 id="header"><a href="#internship">Internships</a></h1>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col" id="intern_company_col">
+				<a href="https://uwaterloo.ca/"><img class="intern-pic" src="images/uwaterloo.png" alt="University of Waterloo Internship"></a>
+				<p>
+					CS116 Instructional Support Assistant <br>
+					Fall 2019
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- Project -->
+	<div class="header_bar" id="project">
+		<h1 id="header"><a href="#project">Project</a></h1>
+	</div>
+	<div class="container project_container testimonial-group" style="padding-top: 2em;">
+		<div><h1 style="text-align: center;">Remark Request</h1></div>
+		<div class="row">
+			<div class="col">
+				<img src="Project/remarkrequest.png" alt="remark request">
+			</div>
+		</div>
+		<br>
+		<div><h1 style="text-align: center;">Tower Defense Game</h1></div>
+		<div class="row">
+			<div class="col">
+				<img src="Project/TD1.png" alt="Tower Defense">
+			</div>
+			<div class="col">
+				<img src="Project/TD2.png" alt="Tower Defense" style="padding-top: 5em;">
+			</div>
+			<div class="col">
+				<img src="Project/TD4.jpeg" alt="Tower Defense" style="padding-top: 5em;">
+			</div>
+			<div class="col">
+				<img src="Project/TD_image1.png" alt="Tower Defense" style="padding-top: 5em;">
+			</div>
+			<div class="col">
+				<img src="Project/TD_image2.png" alt="Tower Defense" style="padding-top: 5em;">
+			</div>
+			<div class="col">
+				<img src="Project/TD_image3.png" alt="Tower Defense" style="padding-top: 5em;">
+			</div>
+			<div class="col">
+				<img src="Project/TD_image4.png" alt="Tower Defense" style="padding-top: 5em;">
+			</div>
+		</div>
+		<br>
+		<div><h1 style="text-align: center;">Alien Invasion Game</h1></div>
+		<div class="row">
+			<div class="col">
+				<img src="Project/alien3.png" alt="alien invasion game" style="padding-top: 1.5em;">
+			</div>
+			<div class="col">
+				<img src="Project/alien2.png" alt="alien invasion game">
+			</div>
+			<div class="col">
+				<img src="Project/alien2.png" alt="alien invasion game">
+			</div>
+		</div>
+		<hr>
+	</div>
+
+	<!-- Contact Page -->
+
+	<div class="header_bar" id="contact" style="height: 20em">
+		<h1 id="header" style="text-align: center;"><a href="#contact">Contact Me</a></h1>
+		<div style="padding-top: 1em;">
+			<form id="myform" action="get_email.php" method="post" oninput="checkInput(this)">
+				<div class="d-flex flex-row justify-content-center">
+					<div class="p-2">
+						<input type="email" name="guest_email" id="email_box" class="form-control" placeholder="Leave your email here!">
+					</div>
+				</div>
+				<div class="d-flex flex-row" style="padding-left: 31.1em;">
+					<div class="p-2">
+						<textarea name="opinions" id="guest_opinion" class="form-control" rows="5" cols="30" placeholder="You can leave some words here to let me know your visit!"></textarea>
+					</div>
+					<div class="p-2-auto" style="padding-top: 6.3em;">
+						<input id="submit" type="submit" value="Send!" class="btn btn-info" disabled/>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+	<script>
+		function checkInput(form) {
+			if (form.guest_email.value == "" && form.opinions.value == "") {
+				document.getElementById("submit").disabled = true;
+			}
+			else document.getElementById("submit").disabled = false;
+		}
+</script>
+
+	<!-- end page -->
+
+	<div class="ending-page">
+		<div class="container" style="padding-top: 1em;">
+			<div class="d-flex flex-row justify-content-center">
+				<div class="p-2 social-icon">
+					<a href="https://github.com/JeffreySong123?tab=repositories" target="_blank"><img src="Icon/github.png" style="width: 35px; height: 35px;"></a>
+				</div>
+				<div class="p-2 social-icon">
+					<a href="https://www.linkedin.com/in/weiyuansong/" target="_blank"><img src="Icon/linkedin.png" style="width: 35px; height: 35px;"></a>
+				</div>
+				<div class="p-2 social-icon">
+					<a href="https://www.facebook.com/WeiyuanSong123" target="_blank"><img src="Icon/fb.png" style="width: 35px; height: 35px;"></a>
+				</div>
+			</div>
+			<div class="d-flex flex-row justify-content-center">
+				<div class="p-2" style="color: white;">
+					By Weiyuan Song
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
